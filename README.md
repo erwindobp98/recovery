@@ -9,7 +9,7 @@
 - Python 3.8+
 - Paket Python berikut (install via pip):
 ```
-https://github.com/erwindobp98/recovery.git
+git clone https://github.com/erwindobp98/recovery.git
 cd recovery
 ```
 ```

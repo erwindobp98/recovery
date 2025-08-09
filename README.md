@@ -1,7 +1,3 @@
-# BIP39 Seed Phrase Recovery
-Skrip ini digunakan untuk melakukan **multiprocessing streaming recovery** frase seed BIP39 dengan hingga 4 kata yang hilang.  
-Cocok untuk mencoba kombinasi kata hilang tanpa perlu menyimpan daftar kombinasi besar sekaligus.
----
 ## Fitur
 - Streaming batch dengan multiprocessing, hemat memori.
 - Checkpoint otomatis untuk resume proses.

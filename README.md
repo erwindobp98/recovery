@@ -42,4 +42,3 @@ Address     : 0xf7c1e38dbc725a69d18922a1ce0c3c0ae62c154d
 Private key : 307d3213389afcf397a13f610c400545e466eccfb71b134c720679daea34966d
 
 *** Immediately verify manually on an offline/secure machine.
-@erwindobp98 ➜ /workspaces/beta/recovery (main) $ 

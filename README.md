@@ -28,7 +28,7 @@ python recover.py
 ```
 4. Skrip akan menampilkan progress interaktif di terminal dan secara otomatis menyimpan checkpoint ke file recover_checkpoint.json.
 5. Jika seed phrase ditemukan, skrip akan menampilkan hasil lengkap dan menghapus checkpoint agar run berikutnya mulai dari awal.
-Contoh output
+6. Contoh output
 ```
 [INFO] Missing positions: [11]
 [INFO] Kandidat per posisi: [2048]

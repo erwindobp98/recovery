@@ -28,3 +28,18 @@ python recover.py
 ```
 4. Skrip akan menampilkan progress interaktif di terminal dan secara otomatis menyimpan checkpoint ke file recover_checkpoint.json.
 5. Jika seed phrase ditemukan, skrip akan menampilkan hasil lengkap dan menghapus checkpoint agar run berikutnya mulai dari awal.
+## Contoh output
+```
+[INFO] Missing positions: [11]
+[INFO] Kandidat per posisi: [2048]
+[INFO] Total kombinasi: 2,048
+[INFO] Resuming from offset 0, checked so far 0
+[############################  ]  95.21% checked=1,950/2,048 rate=3253.2/s elapsed=0s ETA=0s                   
+[FOUND] Seed phrase ditemukan!
+[DONE] elapsed 0.6s - checked 1,950
+Seed phrase : also naive cream notice lounge mask olympic grocery slush arrive spoil victory
+Address     : 0xf7c1e38dbc725a69d18922a1ce0c3c0ae62c154d
+Private key : 307d3213389afcf397a13f610c400545e466eccfb71b134c720679daea34966d
+
+*** Immediately verify manually on an offline/secure machine.
+@erwindobp98 ➜ /workspaces/beta/recovery (main) $ 

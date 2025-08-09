@@ -8,8 +8,11 @@
 ## Persyaratan
 - Python 3.8+
 - Paket Python berikut (install via pip):
-
-```bash
+```
+https://github.com/erwindobp98/recovery.git
+cd recovery
+```
+```
 pip install mnemonic bip-utils eth-account colorama
 ```
 ## Cara Menjalankan

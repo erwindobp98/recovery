@@ -16,9 +16,9 @@ pip install mnemonic bip-utils eth-account colorama
 1. Siapkan partial phrase di dalam file recover.py pada variabel partial_phrase
 Gunakan tanda ? untuk kata yang hilang, contoh:
 ```
-partial_phrase = "stage lift submit ? shoe manual strike ? play ? phrase ?"
+partial_phrase = "also naive cream notice lounge mask olympic grocery slush arrive spoil ?"
 ```
-2. Masukkan target address di variabel target_address (harus dalam lowercase):
+2. Masukkan target address di variabel target_address (harus dalam lowercase), contoh:
 ```
 target_address = "0x650b26e4e63abb7131424b46a68c6503c332bae1"
 ```
@@ -28,7 +28,7 @@ python recover.py
 ```
 4. Skrip akan menampilkan progress interaktif di terminal dan secara otomatis menyimpan checkpoint ke file recover_checkpoint.json.
 5. Jika seed phrase ditemukan, skrip akan menampilkan hasil lengkap dan menghapus checkpoint agar run berikutnya mulai dari awal.
-## Contoh output
+Contoh output
 ```
 [INFO] Missing positions: [11]
 [INFO] Kandidat per posisi: [2048]
